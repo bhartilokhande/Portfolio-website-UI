@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="Asset/css/bootstrap.min.css" rel="stylesheet">
+  <link href="Asset/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav class="navbar menubar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand title" href="#">START BOOTSTRAP</a>
+      <button class="navbar-toggler bg-secondary text-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-white text-uppercase" aria-current="page" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-uppercase" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white text-uppercase" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- navbar close here -->
+  <!-- header section start -->
+  <section class="banner_section">
+    <div class="container">
+      <div class="flex-container">
+        <div>
+          <img class="masthead-avatar" src="Asset/image/avataaars.svg" alt="..." />
+        </div>
+        <div>
+          <h1 class="masthead-heading ">Start Bootstrap</h1>
+        </div>
+        <div>
+          <h1 class="divider">****************</h1>
+        </div>
+        <div style="margin-bottom:50px">
+          <h1 class="masthead-subheading ">Graphic Artist - Web Designer - Illustrator</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- header section end -->
+
+  <!-- <portfolio section start -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="portfolio_heading">
+            <h1 class="portfolio_h1"> Portfolio</h1>
+            <p class="portfolio_divider">***************</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Portfolio Item 1-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            <img class="img-fluid" src="Asset/image/Portfolio/circus.png" alt="..." />
+          </div>
+        </div>
+        <!-- Portfolio Item 2-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+            <img class="img-fluid" src="Asset/image/Portfolio/cake.png" alt="..." />
+          </div>
+        </div>
+        <!-- Portfolio Item 3-->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+            <img class="img-fluid" src="Asset/image/Portfolio/cabin.png" alt="..." />
+          </div>
+        </div>
+        <!-- Portfolio Item 4-->
+        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+            <img class="img-fluid" src="Asset/image/Portfolio/game.png" alt="..." />
+          </div>
+        </div>
+        <!-- Portfolio Item 5-->
+        <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+            <img class="img-fluid" src="Asset/image/Portfolio/safe.png" alt="..." />
+          </div>
+        </div>
+        <!-- Portfolio Item 6-->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+            <img class="img-fluid" src="Asset/image/Portfolio/submarine.png" alt="..." />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portfolio section end -->
+  <!-- about section end -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div>
+            <h1 class="about_h1">About</h1>
+            <p class="about_divider">***************</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div>
+            <p class="about_para">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes
+              the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for
+              easy customization You can create your own custom avatar for the masthead, change the icon in the
+              dividers, and add your email address to the contact form to make it fully functional!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-center mt-5 mb-5">
+            <a class="btn btn-xl btn-outline-light">Free Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section end -->
+
+  <!-- contact section start -->
+  <section  class="contact">
+    <div id="contact" class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div>
+            <h1 class="contact_h1">Contact me</h1>
+            <p class="contact_divider">***************</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div>
+            <form>
+              <div class="form-floating mb-3">
+                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                  data-sb-validations="required" />
+                <label for="name">Full name</label>
+                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+              </div>
+              <div class="form-floating mb-3">
+                <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                  data-sb-validations="required,email" />
+                <label for="email">Email address</label>
+                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+              </div>
+              <div class="form-floating mb-3">
+                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                  data-sb-validations="required" />
+                <label for="phone">Phone number</label>
+                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
+                  style="height: 10rem" data-sb-validations="required"></textarea>
+                <label for="message">Message</label>
+                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+              </div>
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">
+                  <div class="fw-bolder">Form submission successful!</div>
+                  To activate this form, sign up at
+                  <br />
+                  <a
+                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                </div>
+              </div>
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">Error sending message!</div>
+              </div>
+              <button class="btn btn-lg  contact_button " id="submitButton" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section end -->
+  <!-- footer section start -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4 class="text-uppercase mt-5 ">Location</h4>
+          <p class="lead mb-5 text-white">
+            2215 John Daniel Drive
+            <br />
+            Clark, MO 65243
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <h4 class="text-uppercase mt-5">About Freelancer</h4>
+          <p class="lead mb-5">
+            Freelance is a free to use, MIT licensed Bootstrap theme created by
+            <a href="http://startbootstrap.com">Start Bootstrap</a>
+          </p>
+        </div>
+      </div>
+      <div class="copyright py-4 text-center ">
+    <div class="container"><small>Copyright &copy; Your Website 2021</small></div>
+</div> 
+</section>
+<!-- footer section end -->
+ 
+
+
+
+
+
+
+
+  <script src="Asset/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
